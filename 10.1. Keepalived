@@ -19,6 +19,7 @@ unicast_peer {
 }
 }
 
+![alt text](https://github.com/teplodizain/10.1.-Keepalived-vrrp/blob/main/нода%201.jpg)
 -------нода 2 -------
 
 vrrp_instance failover_test {
@@ -38,3 +39,4 @@ unicast_peer {
 	192.168.0.254 dev enp0s3 label enp0s3:vip 
 }
 }
+![alt text](https://github.com/teplodizain/10.1.-Keepalived-vrrp/blob/main/нода%202.jpg)
